@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cscd212-s23-lab21.iml" filepath="$PROJECT_DIR$/cscd212-s23-lab21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cscd212-s23-lab2.iml" filepath="$PROJECT_DIR$/.idea/cscd212-s23-lab2.iml" />
     </modules>
   </component>
 </project>

@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Television implements Comparable<Television>{
 
-    private boolean fourK = false;
+    private final boolean fourK;
     private final String make;
     private final String model;
     private final int resolution;
@@ -22,8 +22,10 @@ public class Television implements Comparable<Television>{
         this.screenSize = screenSize;
         this.resolution = resolution;
         this.make = make;
-        if (resolution >= 2160)
+        if (resolution == 2160)
             this.fourK = true;
+        else
+            this.fourK = false;
 
 
     }
@@ -37,8 +39,11 @@ public class Television implements Comparable<Television>{
         this.smart = smart;
         this.screenSize = screenSize;
         this.resolution = resolution;
-        if (resolution >= 2160)
+
+        if (resolution == 2160)
             this.fourK = true;
+        else
+            this.fourK = false;
 
     }
 
@@ -74,7 +79,7 @@ public class Television implements Comparable<Television>{
     @Override
     public String toString() {
         if (this.fourK) {
-            return getMake() + "-" + getModel() + ", " + getScreenSize() + " inch tv with 4k resolution";
+            return getMake() + "-" + getModel() + ", " + getScreenSize() + " inch tv with 4K resolution";
 
         }
         else if (this.fourK && this.smart){
