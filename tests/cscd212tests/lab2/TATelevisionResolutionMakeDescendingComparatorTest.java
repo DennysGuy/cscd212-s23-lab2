@@ -17,7 +17,7 @@ class TATelevisionResolutionMakeDescendingComparatorTest {
         Comparator<Television> comparator;
         @BeforeEach
         void setUp() {
-            this.comparator = new TelevisionResolutionMakeDescendingComparator();
+            this.comparator = (Comparator<Television>) new TelevisionResolutionMakeDescendingComparator();
         }
 
         @Test
@@ -57,7 +57,7 @@ class TATelevisionResolutionMakeDescendingComparatorTest {
         Television television1;
         @BeforeEach
         void setup() {
-            this.comparator = new TelevisionResolutionMakeDescendingComparator();
+            this.comparator = (Comparator<Television>) new TelevisionResolutionMakeDescendingComparator();
             this.television1 = new Television(this.makes[0], "test", true, 32, this.resolutions[0]);
         }
 
