@@ -11,9 +11,9 @@ public class Television implements Comparable<Television>{
     private final int screenSize;
     private final boolean smart;
 
-    public Television(final String model, final boolean smart, final int screenSize, final int resolution, String make) throws IllegalArgumentException{
+    public Television(final String make, final String model, final boolean smart, final int screenSize, final int resolution ) throws IllegalArgumentException{
 
-        if (model == null || model.isBlank()  || make == null || make.isBlank()){
+        if (model == null || model.isBlank() || screenSize < 32 || resolution < 720|| make == null || make.isBlank()){
             throw new IllegalArgumentException("Invalid parameter in constructor");
         }
 
@@ -29,22 +29,8 @@ public class Television implements Comparable<Television>{
 
 
     }
-    public Television(String make, String model, boolean smart, int screenSize, int resolution) throws IllegalArgumentException{
-        if (model == null || model.isBlank() || screenSize < 0 || resolution < 0|| make == null || make.isBlank()){
-            throw new IllegalArgumentException("Invalid parameter in constructor");
-        }
-
-        this.make = make;
-        this.model = model;
-        this.smart = smart;
-        this.screenSize = screenSize;
-        this.resolution = resolution;
-
-        if (resolution == 2160)
-            this.fourK = true;
-        else
-            this.fourK = false;
-
+    public Television(final String model, final boolean smart, final int screenSize, final int resolution, final String make) {
+        this(make, model, smart, screenSize, resolution);
     }
 
     @Override
