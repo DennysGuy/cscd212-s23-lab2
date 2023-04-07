@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae2654f5-4bb5-4a25-b4b4-e0f2e0fafdc6" name="Changes" comment="created packages and classes">
-      <change beforePath="$PROJECT_DIR$/tests/cscd212tests/lab2/TATelevisionResolutionMakeDescendingComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/cscd212tests/lab2/TATelevisionResolutionMakeDescendingComparatorTest.java" afterDir="false" />
+    <list default="true" id="b0664f0e-f329-497d-a59b-0ea15a41cfe0" name="Changes" comment="the entire project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2/cscd212-s23-lab2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cscd212tests/lab2/TATelevisionModelScreenSizeComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cscd212tests/lab2/TATelevisionResolutionMakeDescendingComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cscd212tests/lab2/TATelevisionScreenSizeComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cscd212tests/lab2/TATelevisionTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,7 +28,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2O14umRohZv6tyUAuTsiNpNixM1" />
+  <component name="ProjectId" id="2O1izoy0ESKLzDAOCJQx6zVZMkr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,31 +46,75 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="TATelevisionModelScreenSizeComparatorTest$Compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscd212-s23-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cscd212tests.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionModelScreenSizeComparatorTest" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionModelScreenSizeComparatorTest$Compare" />
+      <option name="METHOD_NAME" value="same" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TATelevisionModelScreenSizeComparatorTest$Compare.same" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscd212-s23-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cscd212tests.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionModelScreenSizeComparatorTest" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionModelScreenSizeComparatorTest$Compare" />
+      <option name="METHOD_NAME" value="same" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TATelevisionModelScreenSizeComparatorTest$Compare" />
+        <item itemvalue="JUnit.TATelevisionModelScreenSizeComparatorTest$Compare.same" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ae2654f5-4bb5-4a25-b4b4-e0f2e0fafdc6" name="Changes" comment="" />
-      <created>1680714981012</created>
+      <changelist id="b0664f0e-f329-497d-a59b-0ea15a41cfe0" name="Changes" comment="" />
+      <created>1680734756967</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680714981012</updated>
-      <workItem from="1680714982993" duration="1988000" />
-      <workItem from="1680796643654" duration="60000" />
-      <workItem from="1680796849438" duration="4437000" />
-      <workItem from="1680828834468" duration="630000" />
+      <updated>1680734756967</updated>
+      <workItem from="1680734759665" duration="11994000" />
+      <workItem from="1680841633020" duration="312000" />
     </task>
-    <task id="LOCAL-00001" summary="created packages and classes">
-      <created>1680715401482</created>
+    <task id="LOCAL-00001" summary="add fields and methods to Television Class">
+      <created>1680735608905</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1680715401482</updated>
+      <updated>1680735608905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="the entire project">
+      <created>1680750564773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680750564773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +132,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created packages and classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="created packages and classes" />
+    <MESSAGE value="add fields and methods to Television Class" />
+    <MESSAGE value="the entire project" />
+    <option name="LAST_COMMIT_MESSAGE" value="the entire project" />
   </component>
 </project>

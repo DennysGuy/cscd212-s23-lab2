@@ -68,7 +68,7 @@ public class Television implements Comparable<Television>{
         else if (this.fourK && this.smart){
             return getMake() + "-" + getModel() + ", " + getScreenSize() + " inch smart tv with 4k resolution";
         }
-        else if (this.smart && !this.fourK){
+        else if (this.smart){
             return getMake() + "-" + getModel() + ", " + getScreenSize() + " inch smart tv with " + getResolution() + " resolution";
         }
         else {
