@@ -22,10 +22,7 @@ public class Television implements Comparable<Television>{
         this.screenSize = screenSize;
         this.resolution = resolution;
         this.make = make;
-        if (resolution == 2160)
-            this.fourK = true;
-        else
-            this.fourK = false;
+        this.fourK = (resolution == 2160);
 
 
     }
